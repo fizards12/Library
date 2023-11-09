@@ -1,0 +1,2 @@
+/* Replace with your SQL commands */
+CREATE TABLE books (id SERIAL PRIMARY KEY, title VARCHAR(100),author VARCHAR(50), isbn VARCHAR(50) UNIQUE, quantity INTEGER,shelf_location VARCHAR(100), status VARCHAR(10));

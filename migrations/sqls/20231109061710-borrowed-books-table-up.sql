@@ -1,0 +1,2 @@
+/* Replace with your SQL commands */
+CREATE TABLE borrowed_books (id SERIAL PRIMARY KEY, return_date DATE, book_isbn VARCHAR(50) REFERENCES books(isbn) ON DELETE CASCADE, borrower_email VARCHAR(50) REFERENCES borrowers(email) ON DELETE CASCADE);
