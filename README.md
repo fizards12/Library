@@ -16,7 +16,7 @@
 
 ## Database Diagram:
 1. **books** TABLE:
-   - **ColumnsName :**
+   - **Columns Name :**
      - title
      - author
      - isbn
@@ -24,12 +24,12 @@
      - shelf_location
      - status
 3. **borrowers** TABLE:
-   - **ColumnsName :**
+   - **Columns Name :**
       - name
       - email
       - register_date
 5. **borrowed_books** TABLE:
-   - **ColumnsName :**
+   - **Columns Name :**
       - book_isbn
       - borrower_email
       - return_date
