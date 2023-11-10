@@ -43,7 +43,11 @@
   - `.env` file has the connection information which need to be secured.
   - `database.json` has the information of the database that will be migrate.
 4. run `npm run watch:dev`.
-
+> ### .env Variables:
+> - POSTGRES_HOST = 127.0.0.1
+> - POSTGRES_DB = library
+> - POSTGRES_USER = **_write the user_** (by default "postgres") 
+> - POSTGRES_PASSWORD = **_write the password_**
 -----------------------------------------------------------------------------------
 ## API EndPoints:
 
