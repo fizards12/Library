@@ -4,7 +4,7 @@
 
 
 ## Package installation instructions.
-- `npm i -g db-migrate` to allow us to use terminal commands it provides.
+- run `npm i -g db-migrate` to allow us to use terminal commands it provides.
 - write on Terminal `npm install` to install all dependencies on package.json file.
 - #### Note: 
   - ***you have to install visual studio 17 "desktop department c++" and CMake builder for db-migrate***
