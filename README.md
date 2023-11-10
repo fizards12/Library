@@ -16,20 +16,23 @@
 
 ## Database Diagram:
 1. **books** TABLE:
-   - title
-   - author
-   - isbn
-   - quantity
-   - shelf_location
-   - status
-2. **borrowers** TABLE:
-    - name
-    - email
-    - register_date
-3. **borrowed_books** TABLE:
-    - book_isbn
-    - borrower_email
-    - return_date
+   - **ColumnsName :**
+     - title
+     - author
+     - isbn
+     - quantity
+     - shelf_location
+     - status
+3. **borrowers** TABLE:
+   - **ColumnsName :**
+      - name
+      - email
+      - register_date
+5. **borrowed_books** TABLE:
+   - **ColumnsName :**
+      - book_isbn
+      - borrower_email
+      - return_date
 > **NOTE:** All Tables have their _id_ column which auto increment for each row added
 
 ## Steps to run the program:
