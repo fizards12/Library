@@ -29,7 +29,7 @@ export class BorrowedBooks {
     }
   }
 
-  async borrow({ return_date, bookISBN, borrowerEmail }) {
+  async borrow({ return_date, book_isbn, borrower_email }) {
     try {
       const connect = await database.connect();
       //A book has been borrowed from the library so it.
@@ -39,11 +39,11 @@ export class BorrowedBooks {
 
       const result = await connect.query(sql, [
         return_date,
-        bookISBN,
-        borrowerEmail,
+        book_isbn,
+        borrower_email,
       ]);
       sql = "UPDATE books SET quantity = quantity-1 WHERE isbn=$1";
-      await connect.query(sql, [bookISBN]);
+      await connect.query(sql, [book_isbn]);
       connect.release();
       return result.rows;
     } catch (err) {
