@@ -92,19 +92,19 @@
 > - Request Type: **_POST_**
 > - Request Body: **borrower** json object
 >    - borrower object: contains borrower informations
-> - Request Route: http://localhost:3000/books
+> - Request Route: http://localhost:3000/borrowers
 > - Response : return the **borrower** just added
 > ### Update book details:
 > - Request Type: **_POST_**
 > - Request Body: **updatedInfo** json object
 >    - updatedInfo object: contains the updated information of the borrower
-> - Request Route: http://localhost:3000/books/email-of-the-borrower
+> - Request Route: http://localhost:3000/borrowers/email-of-the-borrower
 > - Request parameters:
 >    - email: the **email** value of the borrower.
 > - Response : return the **Updated borrower information**
 > ### End membership:
 > - Request Type: **_DELETE_**
-> - Request Route: http://localhost:3000/books/email-of-the-borrower
+> - Request Route: http://localhost:3000/borrowers/email-of-the-borrower
 > - Request parameters:
 >    - email: the **email** value of the borrower.
 > - Response : return the **borrower information** which has been deleted
