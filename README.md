@@ -125,7 +125,7 @@
 > - the information provided on each book object is: borrower_name , book_title, return_date
 > ### find borrowed books that exceeds the return_date:
 > - Request Type: **_GET_**
-> - Request Route: http://localhost:3000/borrowed-books/currentDate
+> - Request Route: http://localhost:3000/borrowed-books/over-due/currentDate
 > - Request parameters:
 >    - currentDate: write a specified date you want to check what are the borrowed books that overdue until that date.
 > - Response : return the **overdue books**
