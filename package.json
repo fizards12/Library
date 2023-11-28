@@ -23,7 +23,7 @@
     "clean": "rimraf lib",
     "migrate-up":"db-migrate up -c",
     "migrate-down":"db-migrate reset",
-    "watch:dev": "migrate-up nodemon"
+    "watch:dev": "npm run migrate-up && nodemon"
   },
   "repository": {
     "type": "git",
